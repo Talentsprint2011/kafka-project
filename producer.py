@@ -4,7 +4,7 @@ from kafka import KafkaProducer
 import json
 
 # Twitter API credentials (Replace with your own keys)
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAPN1zgEAAAAAGj%2BrhTGtfoLiRnFrNzkNppkDBak%3DhKSLWofE9V8thAomc688Ju3ZG0JvtUxYerUrMlVeSdbacdX9Wi"
+BEARER_TOKEN = "YOUR BEARER TOKEN"
 
 # Set up Twitter API client
 client = tweepy.Client(bearer_token=BEARER_TOKEN)
